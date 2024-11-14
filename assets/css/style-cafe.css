@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: beige;
+}
+
+.logo-incoffe img {
+    height: 75px;
+}
+
+li, a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.usuario img {
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.barra {
+    height: 3px;
+    width: 100%;
+    background-color: grey;
+}
+
+main {
+    background-color: beige;
+    height: 1300px
+}
+
+.apresentacao h1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.itens p{
+    width: 400px;
+    font-size: 20px;
+}
+
+.itens img {
+    width: 500px;
+}
+
+.produtos h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.carousel-control-prev {
+    margin-left: -150px;
+    padding-left: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 250px;
+}
+
+.carousel-control-next {
+    margin-right: -150px;
+    padding-right: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 250px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card {
+    height: 500px;
+}
+
+.btn, .btn-primary {
+    position: absolute;
+    bottom: 15px;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+}
+
+footer h1 {
+    color: white;
+}
