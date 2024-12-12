@@ -109,3 +109,13 @@ footer {
 footer h1 {
     color: white;
 }
+
+.col-custom {
+    width: 25%;
+}
+
+@media screen and (min-width:"425px") {
+    .col-custom {
+        width: 50%;
+    }
+}
